@@ -1,0 +1,469 @@
+
+body,html{
+    height:100%;
+    margin:0;   
+    scroll-behavior: smooth;
+    font-family: AvenirNext;
+}
+
+.section{
+    font-family: 'Roboto', sans-serif;
+    font-family: AvenirNext;
+    position:relative;
+    min-height:85vh;    
+    height:350px;
+}
+
+.section .one{
+    font-family: 'Roboto', sans-serif;
+    display:grid;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+
+.section  .textone{
+    line-height:20px;
+    margin-top:150px;
+    margin-left:80px;
+}
+
+.section 
+.hungry{
+    font-weight: 700px;
+    color: blue;
+    font-weight: bold;
+}
+
+.section 
+.tetone{
+    margin-left:30px;
+    padding-top: 100px;
+}
+
+.section .corner{
+    background:blue;
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    position:absolute;
+    margin-top:0.2%;
+    margin-left:-190px;
+    z-index: 0;
+    opacity:0.5;
+}
+
+.section 
+.wrapper{
+  
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section 
+.shadow1 img{
+
+    margin-right: -145px;
+    margin-top:50px;
+    width:265px;
+    height:265px;
+}
+
+.section 
+.shadow2 img{
+
+    width: 10px;
+    height: 200px;
+}
+
+.section 
+.shadow3 img{
+    margin-left: -145px;
+    margin-top:50px;
+    width:265px;
+    height:265px;
+}
+
+.section .stores{
+    margin-left: 36%;
+    position:absolute;
+}
+
+.section .stores .playstore{
+    width: 160px;
+    height: 50px;
+    margin-top: 38px;
+ 
+}
+
+.section .stores .applestore{
+    width: 190px;
+    height: 90px;
+    margin-left: 20px;
+
+    position: absolute;
+    margin-top: 18px;
+    }
+
+
+
+/* .section{
+
+
+    .count{
+        margin-top: 110px;
+        .num1::after{
+            content:'+';
+            color:$meal_text_color;
+            margin-left:3px;
+        }
+        .num2::after{
+            content:'+';
+            color:$view_text_count_color;
+            margin-left:3px;
+        }
+        .num3::after{
+            content:'+';
+            color:$restuarant_text_count_color;
+            margin-left:3px;
+        }
+        .num4::after{
+            content:'+';
+            color: $update_view_text_count_color;
+            margin-left:3px;
+        }
+      
+        .num{
+            font-size: 20px;
+            font-weight: normal;
+        }
+    }
+
+    .numcount1,.numcount2,.numcount3,.numcount4{
+        text-align:right;
+        margin-left:20px;
+        text-size-adjust: 80px;
+        padding: 0px;
+        margin-right:80px;
+    }
+
+    .numcount1{
+       color:$meal_text_color;  
+        .vertical-line1{
+            border-right: 3px solid #6b8aff;
+            padding-right: 10px;    
+            line-height: 10px;
+            // position:absolute;
+            // margin-left:292px;
+            // font-size:50px;
+        }
+
+        span{
+                font-size:12px;
+                color: $count_text_color;
+            }  
+    }
+
+    .numcount2{
+        color:$view_text_count_color;
+        padding-top: 11px;
+        .vertical-line2{
+            border-right: 3px solid $view_text_count_color;
+            padding-right: 10px; 
+            line-height: 10px;       
+        }
+        span{
+            font-size: 12px;
+            line-height: 0.6;
+            color: $count_text_color;
+        }
+    }
+
+    .numcount3{
+        color:$restuarant_text_count_color;
+        padding-top: 11px;
+        .vertical-line3{
+            border-right: 3px solid $restuarant_text_count_color;
+            padding-right: 10px;
+            line-height: 10px;
+        }
+        span{
+            font-size: 12px;
+            line-height: 0.6;
+            color: $count_text_color;
+        }
+    }
+
+    .numcount4{
+       color:  $update_view_text_count_color;
+       padding-top: 11px;
+        .vertical-line4{
+            border-right: 3px solid  $update_view_text_count_color;
+            padding-right: 10px;
+            line-height: 10px;
+        }
+
+        span{
+            font-size: 12px;
+            line-height: 0.6;
+            color: $count_text_color;
+        }
+    }
+
+}
+
+
+.font-align .text2 {
+    line-height: 1px;
+    animation-name:text2;
+    animation-duration:1.5s;
+    animation-timing-function:ease;
+    animation-delay:0;
+    animation-iteration-count: initial;
+    animation-fill-mode: forwards;
+    @keyframes text2{
+        0%{
+            //transform:scale(.3);
+            opacity:0;
+            margin-left:-30px;
+        }
+
+        100%{
+            //transform:scale(1);
+            opacity:1;
+            // margin-left:12px;
+        }
+    }
+    .textwo{
+        font-family: 'Pyidaungsu', sans-serif;
+        font-size:15px;
+        line-height:40px;
+        margin-top:20px;
+        margin-left:100px;
+      
+    }
+
+    .textwo_below{
+        font-family: 'Pyidaungsu', sans-serif;
+        color:$accent_color;
+        font-size:15px;
+        margin-left: 160px;
+        span{
+            color: black;
+            padding-left: 7px;
+        }
+    }
+}
+
+.one{
+    .wrapper{
+        padding-top: 100px;
+
+        .shadow3{
+            animation-name:shadowone;
+            animation-duration:1.5s;
+            animation-delay:0;
+            animation-iteration-count: initial;
+            @keyframes shadowone{
+                0%{
+                    transform:scale(0.5);
+                    opacity:0;
+                }
+        
+        
+                100%{
+                    transform:scale(1);
+                    opacity:1;
+                }
+            }
+        }
+        .shadow1{
+            animation-name:shadowtwo;
+        animation-duration:1.5s;
+        animation-timing-function:ease;
+        animation-delay:0;
+        animation-iteration-count: initial;
+        z-index: 10;
+        @keyframes shadowtwo{
+            0%{
+                transform:scale(0.5);
+                opacity:0;
+            }
+            100%{
+                transform:scale(1);
+                opacity:1;
+            }
+        }
+        }
+
+        .shadow2{
+            animation-name:shadowtwo;
+            animation-duration:1.5s;
+            animation-timing-function:ease;
+            animation-delay:0;
+            animation-iteration-count: initial;
+            z-index: 10;
+            @keyframes shadowtwo{
+                0%{
+                    transform:scale(0.5);
+                    opacity:0;
+                }
+                100%{
+                    transform:scale(1);
+                    opacity:1;
+                }
+            }
+         }
+    }
+}
+ 
+
+.font-align.animated .text2 {
+    // line-height: 1px;
+    animation-name:fadeout;
+    animation-duration:1.5s;
+    animation-timing-function:ease;
+    animation-delay:0;
+    animation-iteration-count: inherit;
+    @keyframes fadeout{
+        0%{
+            //transform:scale(.3);
+            opacity:0;
+            margin-left:-30px;
+        }
+
+        100%{
+            //transform:scale(1);
+            opacity:1;
+            // margin-left:12px;
+        }
+    }
+}
+
+ .wrapper .shadow2{
+    img{
+        position: relative;
+        width:265px;
+        height:330px;
+        z-index:9;
+    }
+ }
+
+ .toggleNav{
+     display:none;
+ } */
+
+
+
+
+/* 
+@media only screen and (min-width: 320px) and (max-width:1024px)  {
+ 
+    .main-wrapper{
+        display: flex;
+        flex-direction: column;
+        // width: 100vw;
+    } 
+    .section{
+        min-height: 950px;
+        width:100vw;
+        .one{
+            display:grid;
+            grid-template-columns: 2fr;
+            .corner{
+                display: none;
+            }
+            .font-align{
+                width: 100vw;
+                margin-top: 55px;
+                .textone{    
+                    text-align: center;
+                    margin-top: 30px;
+                    margin-left: 7%;
+                }
+                .textwo{    
+                    margin-top: 30px;
+                    margin-left: 1%;
+                }
+                .text2{
+                    text-align: center;
+                    margin-left: 7%;
+                    .textwo_below {
+                        font-family: 'Pyidaungsu', sans-serif;
+                        color: #4a8fe1;
+                        font-size: 15px;
+                        margin-left: 21%;
+                    }
+                }
+            
+            }
+            .wrapper{
+                width: 100vw;
+                padding-top: 40px;
+                .shadow1 img {
+                    margin-top: 50px;
+                    width: 230px;
+                    height: 265px;
+                }
+                .shadow2 img {
+                    position: relative;
+                    width: 240px;
+                    height: 330px;
+                    z-index: 9;
+                }
+                .shadow3 img {
+                    // margin-left: -161px;
+                    margin-top: 50px;
+                    width: 230px;
+                    height: 265px;
+                }
+            }      
+        }
+        .count{
+            position: absolute;
+            margin-top: 677px;
+            display: grid;
+            width: 100vw;
+            justify-content: center;
+            .numcount{ 
+                 .verticals{
+                     border-right: none;
+                     text-align: center;
+                     .num{
+                         font-size: x-large;
+                         font-weight: lighter;
+                         width: 150px;
+                     }
+                     span{
+                         text-align: right;
+                     }
+                 }
+         
+                 span{
+                         font-size:12px;
+                     }  
+             }
+        }
+        .stores{
+
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            margin-left: -66px;
+            // margin-left: 0px;
+            margin-top: -30px;
+            .playstore{
+                width: 126px;
+                height: 42px;
+                margin-top: 38px;
+                //position: absolute;
+            }
+    
+            .applestore{
+                width: 150px;
+                height: 76px;
+                margin-left: 20px;
+                /* padding-top: 20px; */
+            
+
+
+

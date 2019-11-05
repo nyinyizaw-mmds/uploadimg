@@ -1,0 +1,167 @@
+/* @font-face {
+    font-family: 'AvenirNext';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../public/css/AvenirNext.otf');
+  } */
+
+
+.header{
+    display: flex;
+    color: blue;
+    justify-content: space-between;
+    background:white; 
+    margin-right: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header .logo1{
+    display: flex;
+}
+
+.header .logo1 a{
+    display: contents;
+    text-decoration: none;
+}
+
+.header .logo1 img{
+    width: 45px;
+    line-height: 50px;
+    padding: 5px 25px;
+    height: 45px;  
+}
+
+.header .logo1 img{
+    color:blue; 
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.header .logo1 nav ul{
+    list-style: none;
+}   
+
+.header .logo1 .nav ul li{
+    display: inline-block;
+    color:rgb(0, 0, 0);
+    text-decoration:none;
+    padding:10px 30px;
+    position: relative;
+}
+
+
+  
+  /* .header .logo1  .home     {   
+
+   } 
+            a{
+                color: blue;
+                &::before{
+                    content: "";
+                    width: 25px;
+                    height: 3px;
+                    background: $line_button;
+                    left: 30px;
+                    bottom: 0;
+                    position: absolute;
+                }
+            }
+        }
+} */
+
+/* .campaign{
+    img{
+        width:1348px;
+        height:200px;
+    }
+} */
+
+
+
+/* // @media only screen and (min-width:320px) and (max-width:414px){
+//     .header{
+//         width: 100vw;
+//     }
+// }
+@media only screen and (min-width:320px) and (max-width:1024px){
+
+    .header{
+        width: 100vw;
+        margin-right: 0px;
+    }
+    .campaign{
+                img{
+                  width:414px;
+                   
+                }
+             }
+
+    .sticky {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        // background-color: red;
+        z-index: 50;
+    }
+
+      .sticky{
+          padding-top: 10px;
+      }
+    .nav{
+         .toggleNav{
+                float: right;
+                padding-right: 50px;
+                margin-top: 17px;
+                text-decoration: none;
+            }
+     }
+        
+     .nav.close{
+         .menu{
+             display: none;
+         }
+     }
+
+     .nav ul.open{
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+        width: 100vw;
+        line-height: 0;
+        overflow: hidden;
+        margin-left: -227px;
+ 
+        .home a::before {
+          display: none;
+        }
+        .close{
+            margin-left: 90%;
+            width: 25px;
+            height: 25px;
+            position: relative;
+        }
+        li{
+            position: relative;
+            width: 110px;
+          .btn1{
+              display: none;
+          }
+    
+      }
+        
+    }
+    
+} */
+
+/* // @media only screen and (min-width:768px) and (max-width:1024px){
+//         .nav{
+//             .toggleNav{
+//                 margin-left: 535px;
+//             }
+//         }
+// } */
+
+
+

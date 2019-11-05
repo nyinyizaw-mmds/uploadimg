@@ -1,0 +1,318 @@
+.three{
+    position: relative;
+    background: white;
+    min-height:100%;
+    height:850px; 
+    overflow-x:hidden;
+    overflow-y:hidden;
+    background:blue;
+}
+    /* .three{
+        position: relative;
+        background: white;
+        min-height:100%;
+        height:850px; 
+        overflow-x:hidden;
+        overflow-y:hidden;
+        @extend %menu_center_text;
+        margin-top:20px;
+
+
+        .next-btn{
+            //margin-top:-200px;
+            position:absolute;
+            margin-top:-95px;
+            text-align:center;
+            margin-left:-50px;
+            bottom:0;
+
+            b{
+                font-size:17px;
+            }
+        }
+
+            .one_col{
+               .ani_button{
+                .btn1,.btn2,.btn3,.btn5,.btn6{
+                    @extend %third_btn;
+                }
+        
+               
+                .btn4,.btn7,.btn8{
+                    @extend %third_btn_second;
+                }
+            
+                .btn1{
+                    margin-top:$third_slide_btn_margin_top;
+                    margin-left:500px;
+                    background:$btn1bgcolor;
+            
+                    @extend %inside_btn_text;
+                }
+            
+                .btn1:after{
+                    @extend %btn12356;
+                }
+            
+                .btn2{
+                    margin-top:$third_slide_btn_margin_top+60px;
+                    margin-left:110px;
+                    background:$btn2bgcolor;
+            
+                    @extend %inside_btn_text;
+                }
+            
+                .btn2:after{
+                    @extend %btn12356;
+                }
+            
+                .btn3{
+                    margin-top:$third_slide_btn_margin_top+120px;
+                    margin-left:350px;
+                    background:$btn3bgcolor;
+            
+                    @extend %inside_btn_text;
+                }
+            
+                .btn3:after{
+                    @extend %btn12356;
+                }
+            
+                .btn4{
+                    margin-top:$third_slide_btn_margin_top+180px;
+                    margin-left:110px;
+                    background:$btnbgtransparent;
+            
+                   @extend %inside_btn_text2;
+                }
+            
+                .btn5{
+                    margin-top:$third_slide_btn_margin_top+240px;
+                    margin-left:510px;
+                    background:$btn5bgcolor;
+                    position:absolute;
+                    z-index:5;
+                    @extend %inside_btn_text;
+                }
+            
+                .btn5:after{
+                    @extend %btn12356;
+                }
+                
+                .btn6{
+                    margin-top:$third_slide_btn_margin_top+300px;
+                    margin-left:230px;
+                    background: #87be51;
+            
+                    @extend %inside_btn_text;
+        
+                    p{
+                       // margin-top:1px;
+                    }
+                }
+            
+                .btn6:after{
+                    @extend %btn12356;
+                }
+            
+                .btn7{
+                    margin-top:$third_slide_btn_margin_top+370px;
+                    margin-left:420px;
+                    background:$btnbgtransparent;
+            
+                    @extend %inside_btn_text2;
+                }
+            
+                .btn8{
+                    margin-top:$third_slide_btn_margin_top+420px;
+                    margin-left:120px;
+                    background:$btnbgtransparent;
+            
+                    @extend %inside_btn_text2;
+                }
+               }
+
+               .corner1{
+                margin-left: -30px;
+                margin-top: 597px;
+                width:150px;
+                height:230px;
+                background:$circle_underline;
+                -webkit-border-radius: 0px 130px 130px 0px;
+                -moz-border-radius: 0px 130px 130px 0px;
+                border-radius: 0px 130px 130px 0px;
+                position:absolute;
+                z-index:10;
+        
+                img{
+                    width: 150px;
+                    height: 100px;
+                    position: relative;
+                    margin-left: -90px;
+                    margin-top: 142px;
+                }
+            }
+            }
+
+            .two_col{
+                .rotate-img{
+                    display: flex;
+                    flex-wrap: nowrap;
+                    //height: 350px;
+                    overflow-x: hidden;
+                    overflow-y:hidden;
+                    background:transparent;
+                    //min-width:250px;
+                    .phimg{
+                        margin-top:330px;
+                        height:680px;
+                        position:absolute;
+                        margin-left:470px;
+                        z-index:2;
+                      
+                    }
+            }
+        }
+
+            .three_col{
+            
+                .upper{
+                   
+                    width: 130px;
+                    height: 90px;
+                    position: absolute;
+                    right: 0;
+                    top:0;
+    
+                    .back-img{
+                    position:relative;
+                    width: 130px;
+                    height: 90px;
+                 
+                 }
+                }
+    
+                .middle_one{
+                    
+                    position: absolute;
+                    right: 40px;
+                    width: 80;
+                    height: 60px;
+                    margin-top: 340px;
+    
+                    .fruit{
+                        width:50px;
+                        height: 50px;
+                    }
+                }
+    
+                .middle_two{
+                  
+                    width: 285px;
+                    height: 150px;
+                    right: 35px;
+                    position: absolute;
+                    margin-top: 490px;
+                    z-index:5;
+                    figure{
+                        text-align:center;
+                        font-size:15px;
+                        font-family: Helvetica;
+                        font-weight: bold;
+                        font-stretch: normal;
+                        font-style: normal;
+                        line-height: 6;
+                        letter-spacing: normal;
+                        text-align: center;
+                        color: #5c5c5c;
+                       .search{
+                        width:50px;
+                        height:50px;
+                       }
+                    }
+                }
+    
+                .foo{
+                    width: 200px;
+                    height: 200px;
+                    position: absolute;
+                    bottom: 35px;
+                    right: 0;
+    
+                    .right-corner{
+                        position:relative;
+                        z-index:3;
+                        width: 200px;
+                        height: 250px;
+                        right:-80px;
+                    
+                        background:$circle_underline;
+                        -webkit-border-radius: 74% 25% 95% 48% / 95% 0% 100% 48%;
+                        -moz-border-radius: 74% 25% 95% 48% / 95% 0% 100% 48%;
+                        border-radius: 74% 25% 95% 48% / 95% 0% 100% 48%;
+            
+                        img{
+                            height: 150px;
+                            margin-top: 70px;
+                            margin-left: 40px;
+                            transform:rotate(18deg);
+                        }
+                    }
+                }
+            }
+
+
+        
+        .largescale{
+            animation-name:changescale;
+            animation-duration:0.5s;
+            animation-timing-function:ease;
+            animation-delay:0;
+            animation-iteration-count: initial;
+            animation-fill-mode: forwards;
+            @keyframes changescale{
+                0%{
+                    transform:scale(0.5);
+                    opacity:0;
+                }
+                100%{
+                    transform:scale(1);
+                    opacity:1;
+                }
+            }
+            }
+
+        // .phskew{
+        //     animation-name:phskews;
+        //     animation-duration:1s;
+        //     animation-timing-function:ease;
+        //     animation-delay:0;
+        //     animation-iteration-count: initial;
+        //     animation-fill-mode: forwards;
+        //     @keyframes phskews{
+        //         0%{
+        //          transform:skewY(2deg);                
+        //         }
+
+        //         25%{
+        //             transform:skewY(3deg);      
+        //         }
+
+        //         50%{
+        //             transform:skewY(4deg);      
+        //         }
+
+        //         75%{
+        //             transform:skewY(5deg);      
+        //         }
+               
+        //         100%{
+        //            transform:skewY(6deg);
+        //         }
+        //     }
+        // }
+
+    } */
+
+
+

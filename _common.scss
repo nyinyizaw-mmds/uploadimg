@@ -1,0 +1,275 @@
+// start slide
+%third_btn{
+    
+    position:absolute;
+    width:200px;
+    height:45px;
+    border-radius:70px;
+    -webkit-box-shadow: 0px 8px 5px 2px #BFBFBF; 
+    box-shadow: 0px 8px 5px 2px #BFBFBF;
+    border:none;
+
+}
+
+%third_btn_second{
+    position:absolute;
+    width: 150px;
+    height:40px;
+    border-radius:70px;
+    -webkit-box-shadow: 0px 8px 5px 2px #BFBFBF; 
+    box-shadow: 0px 8px 5px 2px #BFBFBF;
+    border:none;
+}
+
+%btn12356{
+   
+    content: "\f00c";
+    font-family: Fontawesome;
+    color: white;
+    padding: 8px;
+    font-size: 15px;
+    position: absolute;
+    border: 4px solid white;
+    border-radius: 50%;
+    width: 10%;
+    height: 35%;
+    background: #5B8EDC;
+    margin-top: -40px;
+    margin-left: 70px;
+
+}
+
+%inside_btn_text{
+    p{
+        unicode-bidi: bidi-override;
+        color:white;
+        font-size:15px;
+        margin-top:-15px;
+        font-family: MyanmarSangamMN;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+    }
+}
+
+%inside_btn_text2{
+    p{
+        unicode-bidi: bidi-override;
+        color:black;
+        font-size:13px;
+        margin-top:-12px;
+        opacity:0.5;
+    }
+}
+// end third slide
+
+
+//start four slide
+%inside_text{
+    .text{
+        margin-top:15px;
+        p{
+            margin-left: 25px;
+            font-family: Helvetica;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #3d3d3d;
+            font-size: 14px;
+
+            span{
+                font-size: 10px;
+                font-weight: 500;
+                font-family: AvenirNext;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                text-align: center;
+                color: #5b8edc;
+                margin:0;
+            }
+        }
+        span{
+            font-size: 10px;
+            margin-left: 25px;
+            font-family: MyanmarSangamMN;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            color: #757575;
+        }
+    }
+}
+
+%menu_center_text{
+    p{
+        height:0px;
+        text-align: center;
+        font-family: Helvetica;
+        font-size: 25px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #3d3d3d;
+        
+       .btn{
+           border:0px;
+           border-bottom: 3px solid $circle_underline;
+           background: white;
+            padding:5px;
+
+            b{
+                font-size:17px;
+            }
+       }
+    }
+}
+
+
+%four_slide_div{
+    
+    width:250px;
+    height:170px;
+    // border:1px solid gray;
+    border-radius: 10px;
+   
+    border-radius: 16px;
+    // box-shadow: 0 9px 20px 0 rgba(86, 86, 86, 0.5);
+    background-color: #ffffff;
+    -webkit-box-shadow:  0px 5px 10px 0px rgba(170,170,170,0.54); 
+    box-shadow: 0px 5px 10px 0px rgba(170,170,170,0.54);
+}
+
+%four_slide_image{
+   
+    width: 140px;
+    height: 140px;
+    border-radius: 25px;
+    padding:15px;
+    position: absolute;
+}
+
+//end four slide css
+
+//start fifthslide css
+%background_cover_transparent{
+    .transparent_cover{
+        
+        position: absolute;
+        height: 250px;
+        width: 270px;
+        background-image: linear-gradient(to top, #000000, rgba(0, 0, 0, 0) 27%);
+    }
+
+}
+
+%card_text{
+
+   .container{
+    span{
+        font-family: MyanmarSangamMN;
+        font-size: 12px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #757575;
+        margin-left:10px;
+    }
+
+    p{
+        font-family: MyanmarSangamMN;
+        font-size: 12px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #757575;
+        margin-left:10px;
+    }
+   }
+}
+
+%scroll_group{
+    position:relative;
+    //z-index:5;
+    //border:3px solid rgb(231, 234, 238);
+    box-shadow: rgb(231, 234, 238);
+    background:white;
+    transition: 0.3s;
+    width: 270px;
+    height:375px;
+    box-shadow: 0px 5px 10px 0px rgba(170, 170, 170, 0.54);
+    img{
+       width:270px;
+       height:250px;
+       opacity:0.9;
+    }
+
+    .container {
+        padding: 20px 15px;
+        background:white;
+        justify-items: center;
+        align-content: center;
+        span{
+            font-size:13px;
+        }
+      }
+}
+
+// end fifth slide css
+
+// start footer css
+%footer_menu{
+    padding-top:35px;
+    ul{
+        list-style: none;
+        line-height: 2.4;
+        li a:first-child{
+         color:$footer_colo_text_color;
+         font-family: Helvetica;
+         font-size: 14px;
+         font-weight: bold;
+         font-stretch: normal;
+         font-style: normal;
+         line-height: 2;
+         letter-spacing: normal;
+         text-align: center;
+     
+         }
+
+       
+
+         li:nth-child(1n+2){
+            a{
+             color:$footer_normal_text;
+             font-size:$footer_font_size;
+             font-family: Helvetica;
+             font-weight: normal;
+             font-stretch: normal;
+             font-style: normal;
+             line-height: normal;
+             letter-spacing: normal;
+            }
+         }
+
+         a{
+             text-decoration:none;
+            
+         }
+    }
+}
+
